@@ -238,7 +238,7 @@ p {
 }
 
 .btn-custom {
-    background: var(--background);
+    background: var(--green);
     width: 45px;
     height: 45px;
     border-radius: 50%;
