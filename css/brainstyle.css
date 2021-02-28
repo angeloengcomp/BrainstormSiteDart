@@ -246,6 +246,10 @@ p {
     align-items: center;
     justify-content: center;
 }
+.btn.btn-custom:hover{
+    background-color: #32407B;
+    box-shadow: 2px 5px 8px var(--green);   
+}
 
 .btn-custom2 {
     background: var(--green);
@@ -255,6 +259,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
+}
+.btn-custom2:hover {
+    background: #32407B;
+    box-shadow: 2px 5px 8px var(--green);   
+    
 }
 
 .btn-custom3 {
