@@ -32,6 +32,8 @@ body,
     overflow-x: hidden;
 }
 
+
+
 body {
     background: var(--background) url(../img/fundo.png) no-repeat fixed center center;          
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -41,7 +43,18 @@ body {
 #sobre-footer{
     background: var(--background) url(../img/form.png) no-repeat;
 }
+/*Marcação de Relevancia AZUL*/
+#formulario span, #service span, #conteudo span {
+    border-top: 5px solid #32407b;
+}
 
+.botao-home{
+    position:absolute;
+    top: 90%;
+    left: 85%;
+    opacity: 0.3;
+
+}
 
 
 /*Titulo animado*/
@@ -485,9 +498,11 @@ a{
     width: 40px;
 }
 
+/*REVER*/
 p{
     padding: 15px;
 }
+
 
 
 .color-g{
@@ -513,6 +528,11 @@ p{
     #we{
         width: auto;
         height: 100px;
+    }
+    body {
+        background: var(--background) url(../img/fundo-mobile.png) no-repeat center center;          
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
     }
 }
 /*fim Classes sobrescritas Bootstrap4*/

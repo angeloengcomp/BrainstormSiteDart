@@ -24,7 +24,7 @@
 
 <body>
     <!--Navbar-->
-    <nav class=" navbar navbar-expand-md navbar-main">
+    <nav class="navbar navbar-expand-md navbar-main" id="home-nav">
         <div class="container">
             <a href="index.html"> <img src="img/bslogo.png" class="navbar-brand mx-2" width="50"></a>
             <button class="btn  navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -36,7 +36,7 @@
                 <!--Menu Header-->
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home-nav" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#we" class="nav-link">Sobre Nós</a>
@@ -108,10 +108,10 @@
         <div class="container ">
             <div class="row">
                 <div class="col-md align-self-center">
-                    <img src="img/equipe.png " class="img-fluid">
+                    <img src="img/equipe.png " class="img-fluid mb-4">
                 </div>
                 <div class="col-md align-self-center marcadorx  ">
-                    <h3 class="title-gr">Conheça nossa história</h3>
+                    <h3 class="title-gr">E quem somos <span>nós?</span></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsa, consequuntur saepe minima
                         mollitia libero provident non quis ex, soluta, nulla alias iure odio accusamus perspiciatis
                         consequatur a laborum voluptatem!</p>
@@ -129,7 +129,7 @@
     <section id="conteudo2" class="bg-gr p-3 d-flex">
         <div class="container ">
             <div class="row">
-                <div class="col-md-6 align-self-center">                
+                <div class="col-md-6 align-self-center">
                     <h2 class="title-gr"> <span>A melhor escolha</span> para a sua empresa </h2>
                     <p class="text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown
@@ -145,7 +145,7 @@
                                     <a href="#" class="btn btn-custom2" style="color: white;">
                                         <i class="fas fa-medal"></i>
                                     </a>
-                                    <h3 class="title-gr">Confiança</h3>                                    
+                                    <h3 class="title-gr">Confiança</h3>
 
                                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
@@ -153,7 +153,7 @@
                                     <a href="#" class="btn btn-custom2" style="color: white;">
                                         <i class="fas fa-dollar-sign"></i>
                                     </a>
-                                    <h3 class="title-gr">Economia</h3>                                    
+                                    <h3 class="title-gr">Economia</h3>
                                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
@@ -165,14 +165,14 @@
                                         <i class="fas fa-code"></i>
                                     </a>
                                     <h3 class="title-gr">Soluções</h3>
-                                    
+
                                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                                 <div class="col">
                                     <a href="#" class="btn btn-custom2" style="color: white;">
                                         <i class="fas fa-hands-helping"></i>
                                     </a>
-                                    <h3 class="title-gr">Suporte</h3>                                    
+                                    <h3 class="title-gr">Suporte</h3>
                                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
@@ -194,8 +194,8 @@
     <section id="service" class=" bg-gr p-3 d-flex">
         <div class="container">
             <div class="row d-flex justify-content-around">
-                <div class="col-md-8">                    
-                    <h1 class="text-center title-gr">Conheça nosso Serviços</h1>
+                <div class="col-md-8">
+                    <h1 class="text-center title-gr">Nossos <span>Serviços</span></h1>
                     <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
                         laboriosam nobis dolores
                         animi error
@@ -217,7 +217,7 @@
 
     <section id="formulario" class="bg-gr p-3 d-flex">
         <div class="container">
-            <h1 class="text-center title-gr">Contato</h1>
+            <h1 class="text-center title-gr"><span>Vamos</span> conversar?</h1>
         </div>
     </section>
     <section class="bg-gr p-3" id="sobre-footer">
@@ -250,7 +250,7 @@
                             <input type="text" class="form-control" id="exampleFormControlInput1">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1" class="color-g">Conteúdo</label>
+                            <label for="exampleFormControlTextarea1" class="color-g">Mensagem</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="form-group">
@@ -318,10 +318,13 @@
         </footer>
 
     </section>
-
-
-
-
+ <span class="botao-home">
+    <a href="#home-nav" class="btn btn-custom" style="color: white;">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+ </span>
+            
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
