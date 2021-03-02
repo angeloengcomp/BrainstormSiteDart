@@ -5,12 +5,12 @@
 
 :root {
     --background: rgb(17, 17, 17);
-    --tituloHeader: #04d361;
+    --tituloHeader: #0084AE;
     --subtituloHeader: #FFF;
-    --titulosBody: #04d361;
-    --subtitulosBody: #04d361;
+    --titulosBody: #0084AE;
+    --subtitulosBody: #0084AE;
     --hover: #fdfcfcc2;
-    --green:#04d361;
+    --green:#0084aE;
     --blueb: #233375;
     
 }
@@ -119,7 +119,7 @@ body {
   100% { transform: translate3d(0, 0, 0); }
 }
 .animated-title {
-  color: #04d361;
+  color: var(--tituloHeader);
   font-family: Roboto, Arial, sans-serif;
   height: 60vmin;
   left: 50%;
@@ -272,7 +272,7 @@ p {
     justify-content: center;
 }
 .btn.btn-custom:hover{
-    background-color: #32407B;
+    background: #32407B url(../img/raio.gif) center center ;
     box-shadow: 2px 5px 8px var(--green);   
 }
 
@@ -287,9 +287,9 @@ p {
     margin-bottom: 15px;
 }
 .btn-custom2:hover {
-    background: #32407B;
-    box-shadow: 2px 5px 8px var(--green);   
+    background: #32407B url(../img/raio.gif) center center ;
     
+    box-shadow: 2px 5px 8px var(--green);   
 }
 
 .btn-custom3 {
@@ -303,7 +303,8 @@ p {
 }
 
 .btn-custom3:hover {
-    background: gray;
+    background: #32407B url(../img/raio.gif) center center ;
+    
     width: 90px;
     height: 90px;
     border-radius: 20%;
@@ -437,7 +438,7 @@ textarea{
 }
 
 .submit:hover{
-    background-color:var(--green);
+    background: #32407B url(../img/raio.gif) center center ;    
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s; 
 }
 #rodape{
