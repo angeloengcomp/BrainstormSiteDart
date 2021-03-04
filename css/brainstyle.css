@@ -4,7 +4,7 @@
 /* tabela de cores */
 
 :root {
-    --background: rgb(17, 17, 17);
+    --background: #24292E;
     --tituloHeader: #0084AE;
     --subtituloHeader: #FFF;
     --titulosBody: #0084AE;
@@ -18,7 +18,7 @@
 
 
 .navbar-main {    
-    background: rgba(3, 3, 3, 0.5);
+    background: #24292E;
             
 }
 .bg-gr{
