@@ -83,6 +83,9 @@ body {
   margin-left:-355px;
   animation: slidein 5s infinite;
 }
+.sub-title{
+    color: #04d361;
+}
 
 @keyframes showup {
     0% {opacity:0;}
