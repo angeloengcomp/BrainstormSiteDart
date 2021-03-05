@@ -4,7 +4,7 @@
 /* tabela de cores */
 
 :root {
-    --background: #24292E;
+    --background: #16181a;
     --tituloHeader: #0084AE;
     --subtituloHeader: #FFF;
     --titulosBody: #0084AE;
@@ -41,8 +41,16 @@ body {
 }
 
 #sobre-footer{
-    background: var(--background) url(../img/form.png) no-repeat;
+    background: var(--background) url(../img/form.png) no-repeat center;
+    background-size: cover;
 }
+#bg-hexagon{
+    background: var(--background) url(../img/form2.png) no-repeat center;
+    background-size: cover;
+    
+    
+}
+
 /*Marcação de Relevancia AZUL*/
 #formulario span, #service span, #conteudo span {
     border-top: 5px solid #32407b;
@@ -67,7 +75,7 @@ body {
 }
 
 #title-animed div:first-of-type {    
-                        /* For increasing performance 
+                        /* For performance 
                        ID/Class should've been used. 
                        For a small demo 
                        it's okaish for now */
