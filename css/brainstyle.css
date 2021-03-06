@@ -39,16 +39,21 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
-
-#sobre-footer{
+/*#sobre-footer{
     background: var(--background) url(../img/form.png) no-repeat center;
     background-size: cover;
-}
-#bg-hexagon{
-    background: var(--background) url(../img/form2.png) no-repeat center;
+}*/
+#sobre-footer{
+    background: var(--background);
     background-size: cover;
-    
-    
+}
+/*#bg-hexagon{
+    background: var(--background) url(../img/form2.png) no-repeat center;
+    background-size: cover; 
+}*/
+#bg-hexagon{
+    background: var(--background);
+    background-size: cover; 
 }
 
 /*Marcação de Relevancia AZUL*/
