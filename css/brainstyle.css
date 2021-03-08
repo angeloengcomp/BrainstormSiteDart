@@ -35,7 +35,8 @@ body,
 
 
 body {
-    background: var(--background) url(../img/backsite2.png) no-repeat fixed center center;          
+    background: var(--background) url(../img/backsite2-1.png) no-repeat fixed center center; 
+    background-size: cover;         
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
